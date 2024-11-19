@@ -1,0 +1,130 @@
+body{
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+.header_box{
+    height: 60px;
+    background-color: rgb(167, 158, 158); 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+.header_text{
+    padding-left: 20px;
+    padding-top: 1px;  
+    color: #252B61; 
+    font-weight: bold;
+    width: 220px;
+    margin-right: 10px;
+}
+.search-section{
+    display: flex;
+    width: 300px;
+    cursor: pointer;
+}
+.search-bar{
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.search-icon{
+    margin-left: -40px;
+    margin-top: 2px;
+    padding-left: 10px;
+    padding-top: 7px;
+    background-color: #898aa8;
+    height: 26px;
+    width:25px;
+    border-radius: 18px;
+}
+.right-section{
+    display: flex;
+    flex-direction: row;
+    color: #252B61;
+    margin-left: 400px;
+    align-items: center;
+}
+.right-section a{
+    cursor: pointer;
+}
+.right-section a :hover{
+    text-decoration: underline;
+    color: #252B61;
+}
+.sign-up{
+    height: 30px;
+    width: 80px;
+    border-radius: 4px;
+    background-color: #252B61;
+    color: #92BDF6;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.sign-up:hover{
+    background-color: #444c93;
+}
+.sign-in{
+    height: 30px;
+    width: 80px;
+    border-radius: 4px;
+    margin-left: 10px;
+    background-color: #252B61;
+    color: #92BDF6;
+    border: none;
+    cursor: pointer;
+}
+.sign-in:hover{
+    background-color: #444c93;
+}
+/* Ensure the box-main container has the correct position */
+.box-main {
+    height: 380px;
+    width: 100vw; /* Full viewport width */
+    background-color: #252B61;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: #92BDF6;
+    font-size: 100px;
+    font-weight: 700;
+    position: relative; /* This is important for positioning the image inside */
+    overflow: hidden; /* Ensure the image doesn't overflow the container */
+}
+
+/* Style the Healthcare image to fill the container */
+.HealthCare {
+    position: absolute;  /* Absolute positioning to make it fill the box-main */
+    top: 0;
+    left: 0;
+    width: 100%;  /* Fill the entire width of the container */
+    height: 100%; /* Fill the entire height of the container */
+    object-fit: cover; /* Make the image cover the entire area, keeping the aspect ratio */
+    object-position: center; /* Center the image inside the container */
+    border-radius: 10px; /* Keep the same border-radius as the parent container */
+}
+
+.box-1{
+    background-color: #b0b6ed;
+    height: 360px;
+    margin-top: 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+}
+.box-1-1{
+    background-color: #252B61;
+    width: 30vw;
+    margin: 20px;
+    border-radius: 5px;
+}
+.box-1-2{
+    background-color: #252B61;
+    width: 70vw;
+    margin:20px;
+    border-radius: 5px;
+}
