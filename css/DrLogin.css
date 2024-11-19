@@ -1,0 +1,97 @@
+body {
+    font-family: "Kanit", sans-serif;
+    margin: 0px;
+    display: flex;
+    overflow: hidden;
+}
+
+.left {
+    width: 50vw;
+    height: 100vh;
+    
+}
+
+.right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.left img {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.textMain {
+    font-size: 75px;
+    font-weight: 600;
+    color: #3399FF;
+    -webkit-text-stroke: black;
+    text-shadow: 2px 3px 2px black;
+}
+
+.textSec {
+    margin-top: -30px;
+    font-size: 19px;
+}
+
+input {
+    width: 260px;
+    height: 35px;
+    border: 1px solid grey; /* Set a default border color */
+    margin-bottom: 10px; /* Optional: adds space between inputs */
+    padding-left: 15px;
+    border-radius: 10px;
+}
+input::placeholder{
+    font-family: sans-serif;
+    color: black;
+}
+
+input:focus {
+    border: 2px solid #3399FF; /* Change border to light blue on focus */
+    outline: none; /* Optional: remove default outline */
+}
+input[type="file"]{
+    border: none;
+}
+button{
+    width: 260px;
+    height: 35px;
+    background-color: #3399FF;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+
+    
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+}
+button:hover{
+    background-color: green;
+    transform: translateY(-5px);
+}
+label {
+    display: block;
+    width: 100%; /* Ensures label takes full width of its container */
+    text-align: left; /* Aligns the text inside the label to the left */
+    margin-bottom: 5px; /* Optional: adds some space between the label and input */
+    font-size: 16px; /* Optional: adjust font size */
+    font-weight: 300;
+
+}
