@@ -2,7 +2,7 @@ body {
     font-family: "Kanit", sans-serif;
     margin: 0px;
     display: flex;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .left {
