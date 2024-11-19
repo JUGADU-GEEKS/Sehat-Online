@@ -109,10 +109,8 @@ body{
 }
 
 .box-1{
-    background-color: #b0b6ed;
+    background-color:aliceblue;
     height: 360px;
-    margin-top: 10px;
-    border-radius: 7px;
     display: flex;
     flex-direction: row;
 }
